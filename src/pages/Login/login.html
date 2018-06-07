@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      HIGH Shopping
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background">
+    <img src="assets/imgs/HIGH_icon.png" width="250" height="200">
+    <ion-card>
+    <ion-card-content>
+      <ion-list no lines>
+          <ion-item>
+              <ion-label floating>Username</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="Password"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label class="font_size">Save ID</ion-label>
+                <ion-checkbox color="secondary" checked="true"></ion-checkbox>
+              </ion-item>
+        <ion-item>
+          <p>Forgot password? <a [navPush] = "forgotPage">Get here</a></p>
+        </ion-item>
+        <button ion-button background="" color="secondary" block outline [navPush] = "basicPage">LOGIN</button>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+

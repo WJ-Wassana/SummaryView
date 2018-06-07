@@ -1,0 +1,33 @@
+page-login {
+    
+    .background{
+        background-image: url("../assets/imgs/BG.png");
+        background-position: 50%;
+    }
+    .scroll-content{
+        overflow: hidden;
+        text-align: center;
+    }
+    ion-card.card{
+        background: #F5F5F5;
+        border-radius: 10px;
+    }
+    ion-input{
+        border-bottom: #DCDCDC solid 1px;
+    }
+    .font_size{
+        font: 0.7em;
+        color: #696969;
+    }
+    .H1{
+        font-weight: lighter;
+        font-size : 1.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+        color: #2E8B57;
+    }
+    .H2{
+        font-size : 1.5em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+        color: #77915d;
+    }
+}

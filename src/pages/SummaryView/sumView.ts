@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-@Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
-})
-export class HomePage {
 
+@Component({
+  selector: 'page-sumView',
+  templateUrl: 'sumView.html'
+})
+export class BasicPage {
+  
   constructor(public navCtrl: NavController) {
 
   }
